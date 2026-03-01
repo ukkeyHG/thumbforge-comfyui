@@ -16,9 +16,12 @@ This workflow is optimized for 1280x720 (16:9) resolution.
 ## Prerequisites
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 
-### Recommended Model
-For this specific workflow/example, the following model is recommended for better results:
-- **sd-v1-5-inpainting.ckpt**
+### Recommended Models
+- **Original Choice (High Quality)**:
+  - **Juggernaut XL Inpainting**: [Download from Civitai](https://civitai.com/models/862813/juggernaut-xl-inpainting-updated)
+  - Filename: `juggernautXLInpainting_xiInpainting.safetensors`
+- **Alternative / Example Case**:
+  - **sd-v1-5-inpainting.ckpt**: Recommended for the Hokkaido example images shown below.
 
 ### Required Custom Nodes
 - **kikotools** (Required for `ImageScaleDownBy` node)
