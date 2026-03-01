@@ -8,13 +8,17 @@ This workflow is optimized for 1280x720 (16:9) resolution.
 - **AI Outpainting**: Uses generative AI to naturally fill in the side margins created during conversion.
 - **Gacha Element**: Since it relies on generative AI, the outpainting result may vary. It might require multiple runs (gacha) to get the perfect result.
 
+### Example (Before & After)
+| Before (3:2) | After (16:9 Outpainted) |
+|--------------|--------------------------|
+| ![Before](assets/example_before.png) | ![After](assets/example_after.png) |
+
 ## Prerequisites
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 
 ### Recommended Model
-For best results with outpainting, we recommend using:
-- **Juggernaut XL Inpainting**: [Download from Civitai](https://civitai.com/models/862813/juggernaut-xl-inpainting-updated)
-  - Filename: `juggernautXLInpainting_xiInpainting.safetensors`
+For this specific workflow/example, the following model is recommended for better results:
+- **sd-v1-5-inpainting.ckpt**
 
 ### Required Custom Nodes
 - **kikotools** (Required for `ImageScaleDownBy` node)
