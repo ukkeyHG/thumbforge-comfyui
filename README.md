@@ -21,7 +21,8 @@ This workflow is optimized for 1280x720 (16:9) resolution.
   - **Juggernaut XL Inpainting**: [Download from Civitai](https://civitai.com/models/862813/juggernaut-xl-inpainting-updated)
   - Filename: `juggernautXLInpainting_xiInpainting.safetensors`
 - **Alternative / Example Case**:
-  - **sd-v1-5-inpainting.ckpt**: Recommended for the Hokkaido example images shown below.
+  - **sd-v1-5-inpainting.ckpt**: [Download from Hugging Face](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-inpainting/resolve/main/sd-v1-5-inpainting.ckpt)
+  - Recommended for the Hokkaido example images shown below.
 
 ### Required Custom Nodes
 - **kikotools** (Required for `ImageScaleDownBy` node)
