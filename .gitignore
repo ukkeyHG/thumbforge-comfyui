@@ -1,0 +1,11 @@
+# Temporary files
+*.tmp
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# ComfyUI outputs (if any)
+output/
+input/temp_*
